@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> NURATEC Coworking Space </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<script>
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector("nav ul");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+</script>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="container nav">
+        <img src="images/logo.png" class="logo" alt="Nuratec Logo">
+
+        <div class="menu-toggle">☰</div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Espace Coworking Moderne à Yaoundé</h1>
+        <p>Bureaux • Salles de conférence • Salles de cours • Podcast studio</p>
+        <a href="#contact" class="btn">Réserver maintenant</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>À propos de NURATEQ</h2>
+    <p>
+        NURATEQ est un espace moderne et professionnel offrant des bureaux flexibles,
+        des salles de conférence, des salles de formation et un studio podcast.
+        Nos espaces sont bien éclairés, climatisés et équipés de télévisions 55 pouces et 32 pouces.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section services">
+    <h2>Nos Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>💼 Location de bureaux</h3>
+            <p>Bureaux modernes pour travailler dans un cadre professionnel.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎤 Studio Podcast</h3>
+            <p>Espace dédié pour vos enregistrements audio et vidéo.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Salle de conférence</h3>
+            <p>Idéal pour réunions, séminaires et formations.</p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Salle de cours</h3>
+            <p>Parfait pour formations professionnelles et ateliers.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section gallery">
+    <h2>Nos Espaces</h2>
+
+    <div class="gallery-grid">
+        <img src="images/salle1.jpg">
+        <img src="images/salle2.jpg">
+        <img src="images/salle3.jpg">
+        <img src="images/bureau.jpg">
+        <img src="images/cours.jpg">
+        <img src="images/coworking.jpg">
+    </div>
+</section>
+
+<!-- LOCATION -->
+<section class="section location">
+    <h2>Localisation & Horaires</h2>
+
+    <p><strong>📍 Localisation :</strong> Yaoundé, ESSOS (Ben le boucher), Face Express Union 3e étage</p>
+
+    <p><strong>🕒 Horaires :</strong></p>
+    <p>Lundi à vendredi : 8H — 18H</p>
+    <p>Samedi : 9H — 15H</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+    <h2>Contact</h2>
+
+    <p>📞 (+237) 698.10.28.92 / 680.05.28.60 </p>
+    <p>📧 nurateqcm@gmail.com</p>
+
+    <a class="btn" href="mailto:nurateqcm@gmail.com">Nous écrire</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 NURATEQ Coworking Space — Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
